@@ -1,0 +1,23 @@
+---
+layout: default
+title: Speakers – By Design or by Disaster 2016
+---
+
+<div class="wrap">
+  <h1>Speakers</h1>
+  
+  <ul>
+    {% for page in site.pages %}
+      {% if page.layout == 'speaker' %}
+        <li>
+          <a href="{{site.baseurl}}{{page.url}}">
+            <p>{{ page.speakername }}</p>
+            <img src="{{site.baseurl}}/uploads/speakers/{{page.speakerimage}}" alt="Photo of {{page.speakername}}">
+            <p>{{ page.speakeraffiliation }}</p>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+

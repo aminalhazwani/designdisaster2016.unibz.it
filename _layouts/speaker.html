@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="wrap">
+
+  <h1>{{ page.speakername }}</h1>
+  <img src="{{site.baseurl}}/uploads/speakers/{{page.speakerimage}}" alt="Photo of {{ page.speakername }}">
+  <p>{{ page.speakeraffiliation }}</p>
+  <p>{{ page.speakerbio }}</p>
+
+  <p>{{ page.talktitle }}</p>
+  <p>{{ page.talktime }}</p>
+  <p>{{ page.talkroom }}</p>
+
+  <h2>Abstract of the talk</h2>
+  <p>{{ page.talkabstract }}</p>
+
+  {% if page.books %}
+    <h2>Reccomended readings</h2>
+    <ul>
+      {% for book in page.books %}
+        <li>
+          <p><a href="{{ book.link }}">{{ book.title }}</a>, <span>{{ book.author }}</span></p>
+        </li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if page.articles %}
+    <h2>Suggested articles</h2>
+    <ul>
+      {% for article in page.articles %}
+        <li>
+          <a href="{{ article.link }}">{{ article.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.statements %}
+    <h2>Statements / Questions</h2>
+    <ul>
+      {% for statement in page.statements %}
+        <li>
+          <p>{{ statement.text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</div>
