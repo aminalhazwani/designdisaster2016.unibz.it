@@ -1,0 +1,10 @@
+/*
+ * Media Queries
+ */
+
+=mq($breakpoint: false, $media: all)
+  @if $breakpoint
+    @media #{$media} and #{$breakpoint}
+      @content
+  @else
+    @content
