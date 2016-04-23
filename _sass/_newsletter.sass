@@ -15,22 +15,23 @@
   -moz-appearance: none
   -webkit-appearance: none
 
+.button 
+  width: 60%
+  padding: 1em 1.4em
+  margin-top: 1em
+  border: none
+  font-size: 1em
+  font-weight: bold
+  background-color: $black
+  color: $white
+  cursor: pointer
+  -webkit-font-smoothing: antialiased
+
 .email  
   color: #333
   width: 100%
   margin-bottom: 1em
   background-color: white
-
-.button 
-  width: 100%
-  padding: 1em 1.4em
-  border: none
-  font-size: 1em
-  font-weight: bold
-  background-color: $black
-  color: $yellow-light
-  cursor: pointer
-  -webkit-font-smoothing: antialiased
 
 .button:hover 
   background-color: #444
@@ -49,7 +50,7 @@
     width: auto
     margin-bottom: 0
   
-  .button 
+  .button, .btn
     -webkit-flex-grow: 0
     flex-grow: 0
 

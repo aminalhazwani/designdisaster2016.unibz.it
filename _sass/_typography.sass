@@ -8,6 +8,9 @@
 .small
   font-size: 0.8rem
 
+.spaced
+  padding-bottom: 1.5em
+
 .space
   padding-bottom: 4em
 
@@ -17,9 +20,23 @@
   color: $red
   text-transform: uppercase
 
+.left
+  padding-left: 0em
+
 .bold
   font-size: 1rem
   font-weight: bold
+  flex: 0 0 5rem
+
+  +mq($sm)
+    flex-basis: 7rem
+  +mq($md)
+    flex-basis: 6rem 
+  +mq($lg)
+    flex-basis: 5rem
+  +mq($xl)
+    flex-basis: 5rem
+  
 
 .big
   font-size: 1.5em 
@@ -39,7 +56,7 @@
   -webkit-font-smoothing: antialiased
 
 .white
-  color: white
+  color: $white
   -webkit-font-smoothing: antialiased
 
 .orange
