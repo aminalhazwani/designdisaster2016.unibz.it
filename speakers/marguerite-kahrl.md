@@ -4,7 +4,7 @@ layout: speaker
 title: "Marguerite Kahrl - Speaker of DoD'16"
 speakername: "Marguerite Kahrl"
 speakerimage: "kahrl"
-speakeraffiliation: "Artist and designer, with a focus on social and environmental issues"
+
 speakerbio: "Nata nel 1966 a Beverly, Massachusetts (USA); vive e lavora a Ivrea dal 2002.
 Artista e designer, ha vent’anni di esperienza nell’ambito del design, applicato ai principi della filosofia della Permacultura, legata a progetti artistici in ambito sociale e ambientale. Con le sue sculture stimola l’impegno sociale, ma con un approccio ludico, con la manipolazione di simboli, metafore e differenti media. 
 Il suo lavoro è stato esposto in mostre internazionali,‘Piccole Invasioni Malthusiane’, Villa Croce, Genova e ‘Wild Energies’, PAV, Torino 2016, ‘Savages’ Ningbo in China e a Torino, 2014. ‘Seeds of Winterslag (SOW)’, Manifesta 9, Genk, Belgio, 2012, ‘Common Ground: Projects for the Lagoon’, alla Fondazione Bevilacqua La Masa, Venezia, 2010, the Museum of Contemporary Art, Tucson, Arizona, 2010, Boulder Museum of Contemporary Art, Colorado, 2007 e ‘Disegni’ alla Fondazione Sandretto Re Rebaudengo, Torino, 2004.
