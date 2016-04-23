@@ -15,7 +15,11 @@
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:site_name" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
-  <meta property="og:image" content="{{ site.url }}static/DoD_monkeys_1200x1200.png" />
+  {% if page.layout == 'speaker' %}
+    <meta property="og:image" content="{{ site.url }}uploads/speakers/{{ page.speakerimage }}-og-image.jpg" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}static/DoD_monkeys_1200x1200.png" />
+  {% endif %}
 
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:title" content="Design or Disaster 2016 > 2-7 May / Bozen-Bolzano, Italia"/>

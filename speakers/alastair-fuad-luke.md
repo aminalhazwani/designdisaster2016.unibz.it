@@ -3,7 +3,7 @@ layout: speaker
 
 title: "Alastair Fuad-Luke - Speaker of DoD'16"
 speakername: "Alastair Fuad-Luke"
-speakerimage: "alastairfuadluke.jpg"
+speakerimage: "alastairfuadluke"
 speakeraffiliation: "Sustainable design facilitator, educator, writer and activist"
 speakerbio: "Alastair Fuad-Luke is a sustainable design facilitator, educator, writer and activist exploring emergent, hybrid design practices.  His books include Agents of Alternatives (co-edited), Design Activism and The Eco-Design Handbook. From 2001 to early 2016 he was Professor of Emerging Design Practices, at Aalto ARTS, Aalto University, Helsinki, Finland, and he is currently Professor Auxiliar Convidado, University of Aveiro, Portugal. His recent work embraced co-designing with communities in Finland, Mexico, and the UK, a European Union project on eco-innovation (SHIFT), open fashion design with Mode Uncut, and the not-for-profit organization Agents of Alternatives."
 

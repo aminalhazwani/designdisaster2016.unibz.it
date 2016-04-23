@@ -3,7 +3,7 @@ layout: speaker
 
 title: "Ezio Manzini - Speaker of DoD'16"
 speakername: "Ezio Manzini"
-speakerimage: "ezio-manzini.jpeg"
+speakerimage: "ezio-manzini"
 speakeraffiliation: "Chair Professor of Design for Social Innovation at the University of the Arts (London)"
 speakerbio: "For more than two decades he has been working in the field of design for sustainability. Most recently, his interests have focussed on social innovation, considered as a major driver of sustainable changes. In this perspective he started DESIS: an international network of schools of design specifically active in the field of design for social innovation and sustainability (http://www.desis-network.org ). 
 Presently, he is Chair Professor of Design for Social Innovation at the University of the Arts London (London), Honorary Professor at the Politecnico di Milano and Guest Professor at Tongji University (Shanghai) and Jiangnan University (Wuxi).

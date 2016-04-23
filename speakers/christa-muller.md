@@ -3,7 +3,7 @@ layout: speaker
 
 title: "Christa Müller - Speaker of DoD'16"
 speakername: "Christa Müller"
-speakerimage: "christamuller.jpg"
+speakerimage: "christamuller"
 speakeraffiliation: "Sociologist, committed to research on postmaterial lifestyles and on sustainable concepts of prosperity"
 speakerbio: "Christa Müller (Germany) is a sociologist and committed to research on postmaterial lifestyles and on sustainable concepts of prosperity. She was awarded a PhD in sociology by the University of Bielefeld and received the Schweisfurth Research Award for Ecological Economics. She has undertaken fieldwork in Costa Rica, Mexico and Germany. Currently she is director of the joint foundation anstiftung in Munich. She teaches at different Universities. Her most recent books (in German): “Urban Gardening” and Stadt der Commonisten. Neue urbane Räume des Do it yourself (together with Andrea Baier and Karin Werner)."
 

@@ -3,7 +3,7 @@ layout: speaker
 
 title: "Marguerite Kahrl - Speaker of DoD'16"
 speakername: "Marguerite Kahrl"
-speakerimage: "kahrl.jpg"
+speakerimage: "kahrl"
 speakeraffiliation: "Artist and designer, with a focus on social and environmental issues"
 speakerbio: "Nata nel 1966 a Beverly, Massachusetts (USA); vive e lavora a Ivrea dal 2002.
 Artista e designer, ha vent’anni di esperienza nell’ambito del design, applicato ai principi della filosofia della Permacultura, legata a progetti artistici in ambito sociale e ambientale. Con le sue sculture stimola l’impegno sociale, ma con un approccio ludico, con la manipolazione di simboli, metafore e differenti media. 
