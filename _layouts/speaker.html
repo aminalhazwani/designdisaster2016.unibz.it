@@ -4,20 +4,32 @@ layout: default
 
 <div class="wrap">
 
-  <h1>{{ page.speakername }}</h1>
-  <img src="{{site.baseurl}}/uploads/speakers/{{page.speakerimage}}" alt="Photo of {{ page.speakername }}">
-  <p>{{ page.speakeraffiliation }}</p>
+  <h3 class="section-title">{{ page.speakername }}</h3>
+
+   {% if page.speakerimage %}
+      
+        <img src="{{ site.url }}/uploads/speakers/{{page.speakerimage}}" alt="Photo of {{ page.speakername }}">   
+      
+    {% endif %}
+
+  <p class="small">{{ page.speakeraffiliation }}</p>
   <p>{{ page.speakerbio }}</p>
 
-  <p>{{ page.talktitle }}</p>
-  <p>{{ page.talktime }}</p>
-  <p>{{ page.talkroom }}</p>
+  {% if page.speakerportfolio %}
+      {% for speakerportfolio in page.speakerportfolio %}
+  <p><a href="{{ speakerportfolio.link }}">{{ speakerportfolio.title }}</a></p>
+      {% endfor %}
+  {% endif %}
 
-  <h2>Abstract of the talk</h2>
+  <h2 class="red">{{ page.talktitle }}</h2>
+  <!--<p>{{ page.talktime }}</p>-->
+  <!--<p>{{ page.talkroom }}</p>-->
+
+  <!--<h4>Abstract of the talk</h4>-->
   <p>{{ page.talkabstract }}</p>
 
   {% if page.books %}
-    <h2>Reccomended readings</h2>
+    <h2>Recommended readings</h2>
     <ul>
       {% for book in page.books %}
         <li>
