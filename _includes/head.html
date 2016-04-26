@@ -31,8 +31,12 @@
   {% endif %}
 
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="Design or Disaster 2016 > 2-7 May / Bozen-Bolzano, Italia"/>
-  <meta name="twitter:description" content="Conference on Design and Communication for Eco-Social Transitions at the Free University of Bozen-Bolzano"/>
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+  {% if page.layout == 'speaker' %}
+  <meta name="twitter:description" content="{{ page.speakerbio }}"/>
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}"/>
+  {% endif %}
   
   {% if page.layout == 'speaker' %}
   <meta name="twitter:image:src" content="{{ site.url }}/uploads/speakers/{{ page.speakerimage }}-og-image.jpg"/>
