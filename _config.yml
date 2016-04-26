@@ -4,7 +4,7 @@ email: designdisaster@unibz.it
 description: > # this means to ignore newlines until "baseurl:"
   Conference on Design and Communication for Eco-Social Transitions, 2 - 7 May 2016, Free University of Bolzano-Bozen | Italia
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://designdisaster2016.unibz.it/" # the base hostname & protocol for your site
+url: "http://designdisaster2016.unibz.it" # the base hostname & protocol for your site
 facebook: https://www.facebook.com/designdisaster
 twitter: https://twitter.com/designdisasterr
 
