@@ -17,10 +17,13 @@ talkabstract: "Design is in flux, as witnessed by a plethora of adjectives co-jo
 books:
   - title: "Agents of Alternatives: Re-designing Our Realities"
     author: "Fuad-Luke, A., Hirscher, A.L. & Moebus, K."
+    link: "http://agentsofalternatives.com/?page_id=351"
   - title: "How to Thrive in the Next Economy"
     author: "Thackara, J."
+    link: "http://www.thamesandhudson.com/How_to_Thrive_in_the_Next_Economy/9780500518083"
   - title: "The Pearl Diver. Designer as Story Teller"
     author: "Berltolotti, E., Daam,H., Piredda, F., & Tassinari, V."
+    link: "http://www.desis-philosophytalks.org/2015/06/"
 
 
 statements:

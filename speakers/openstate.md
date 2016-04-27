@@ -19,12 +19,15 @@ speakerportfolio:
 books:
   - title: "Beautiful Trouble: A Toolbox for Revolution"
     author: "Andrew Bird"
+    link: "http://www.goodreads.com/book/show/13702178-beautiful-trouble"
 
   - title: "Thank God it's Monday!: Design Thinking - Wie wir die Arbeitswelt revolutionieren"
     author: "Dark Horse innovation"
+    link: "http://www.amazon.de/Thank-God-its-Monday-revolutionieren/dp/3430201713"
 
   - title: "Finite and Infinite Games"
     author: "James Carse"
+    link: "http://www.amazon.de/Finite-Infinite-Games-James-Carse/dp/1476731713"
 
 statements:
   - text: "Why is it that most people love Star Wars, go to the movies to cheer for the rebels, but blindly serve the Imperium once they leave the theater?"

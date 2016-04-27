@@ -16,8 +16,10 @@ Practice in self-built laboratories such as urban community gardens differs from
 books:
   - title: "Die Welt reparieren"
     author: "Andrea Baier, Tom Hansing, Christa Müller, Karin Werner (Hg.)"
+    link: "http://www.transcript-verlag.de/978-3-8376-3377-1/die-welt-reparieren"
   - title: "Stadt der Commonisten - Neue urbane Räume des Do it yourself"
     author: "Andrea Baier, Christa Müller, Karin Werner"
+    link: "http://www.transcript-verlag.de/978-3-8376-2367-3/stadt-der-commonisten"
   
 
 statements:
