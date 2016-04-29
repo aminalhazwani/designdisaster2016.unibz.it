@@ -9,7 +9,7 @@
   <!-- TITLE & DESCRIPTION -->
   {% if page.layout == 'speaker' %}
     <title>{{ page.speakername }} at DoD16 on...</title>
-    <meta name="description" content="»{{ page.talktitle }}«. Register until 29 May, 10am!" />
+    <meta name="description" content="»{{ page.talktitle }}«. Register until 29 April, 10am!" />
   {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}"/>
@@ -20,7 +20,7 @@
   <meta property="og:type" content="website" />
   {% if page.layout == 'speaker' %}
     <meta property="og:title" content="{{ page.speakername }} at DoD16 on..." />
-    <meta property="og:description" content="»{{ page.talktitle }}«. Register until 29 May, 10am!" />
+    <meta property="og:description" content="»{{ page.talktitle }}«. Register until 29 April, 10am!" />
     <meta property="og:image" content="{{ site.url }}/uploads/speakers/{{ page.speakerimage }}-og-image.jpg"/>
   {% else %}
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
@@ -34,7 +34,7 @@
   <meta name="twitter:card" content="summary"/>
   {% if page.layout == 'speaker' %}
     <meta name="twitter:title" content="{{ page.speakername }} at DoD16 on..." />
-    <meta name="twitter:description" content="»{{ page.talktitle }}«. Register until 29 May, 10am!" />
+    <meta name="twitter:description" content="»{{ page.talktitle }}«. Register until 29 April, 10am!" />
     <meta name="twitter:image:src" content="{{ site.url }}/uploads/speakers/{{ page.speakerimage }}-og-image.jpg"/>
   {% else %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
