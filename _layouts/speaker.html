@@ -6,14 +6,16 @@ layout: default
 
   <h3 class="section-title">{{ page.speakername }}</h3>
 
-   {% if page.speakerimage %}
-      
-        <img src="{{ site.url }}/uploads/speakers/{{page.speakerimage}}.jpg" alt="Photo of {{ page.speakername }}">   
-      
+   {% if page.speakerimage %}       
+        <img src="{{ site.url }}/uploads/speakers/{{page.speakerimage}}.jpg" alt="Photo of {{ page.speakername }}">        
     {% endif %}
 
   <p class="small">{{ page.speakeraffiliation }}</p>
   <p>{{ page.speakerbio }}</p>
+
+  {% if page.speakerlogo %}
+      <img src="{{ site.url }}/uploads/speakers/{{page.speakerlogo}}.png" alt="Logo of {{ page.speakername }}">
+  {% endif %}
 
   {% if page.speakerportfolio %}
       {% for speakerportfolio in page.speakerportfolio %}
