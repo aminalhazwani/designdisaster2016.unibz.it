@@ -3,7 +3,7 @@ layout: speaker
 
 title: "Dagmar Diesner & Massimo De Angelis - Speaker of DoD'16"
 speakername: "Dagmar Diesner & Massimo De Angelis"
-speakerimage: "diesner"
+speakerimage: "diesner-deangelis"
 
 speakerbio: "Dagmar Diesner (German) was a long-time political activist in the social movement in London, before she had moved to Italy. She is committed to weave together different cultural and political viewpoints in her community, and became co-founder and Vice-President of Montagna Viva, a small community organization in the Appenines near Modena. In addition, she is writing her Phd on food sovereignty and the commons, researching resilience strategies for reclaiming or defending organic and local food production in Europe. Her particular interest is the ownership to seed, and to develop common avenues for maintaining the seed as a common good. She is active in the food sovereignty movement for Europe."
 
